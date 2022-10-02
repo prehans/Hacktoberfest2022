@@ -1,0 +1,99 @@
+
+body{
+background :url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.pagetitle{
+    text-align: center;
+    color:white;
+    font-weight:700;
+}
+.maintext{
+    font-size: 30px;
+    color:white;
+    font-weight:800;
+    text-align: center;
+}
+.headtitle{
+color: white;
+text-align: center;
+font-weight:600;
+font-size: 24px;
+}
+.mid{
+/* display :block;
+margin : 2px auto;
+position : absolute;
+display :inline-block;*/
+ left : 17rem;
+top :80px;
+position : absolute;
+/* right : 34px; */
+display :inline-block;
+}
+.right{
+position : absolute;
+right : 16.5rem;
+top :110px;
+display :inline-block;
+}
+.navbar li{
+display :inline-block;
+padding : 20px 20px;
+}
+.navbar li a{
+text-decoration :none;
+}
+.navbar li a:hover{
+color:rgb(8, 1, 1);
+background-color:white;
+text-decoration:none;
+}
+.btn{
+background-color:black;
+color: white;
+margin-top:0.5rem;
+cursor:pointer;
+border-radius:10px;
+}
+.btn:hover{
+background-color: white;
+color:black;
+font-weight: 600;
+
+}
+.container{
+   box-shadow: 5px 10px 5px #fff;
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+margin-left: auto;
+margin-top:5rem;
+margin-right: auto;
+padding :70px ;
+width:33%;
+margin-bottom: 2rem;
+
+}
+.form input{
+text-align:center;
+display:block;
+padding:4px;
+border: 2px solid black;
+margin :2px auto;
+border-radius:12px;
+width :300px;
+}
+.container h1{
+text-align:center;
+}
+.container button{
+width:150px;
+margin-left:80px;
+text-align:center;
+display:block;
+/* margin: auto; */
+}
