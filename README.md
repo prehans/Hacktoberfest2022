@@ -1,10 +1,10 @@
 # Hacktoberfest2022![hacktober](https://user-images.githubusercontent.com/85963909/193440138-76458f6d-1769-4dff-97f4-2246ec161cf3.jpg)
-PRs Welcome Open Source Love contributions welcome Hacktoberfest-21
+PRs Welcome Open Source Love contributions welcome Hacktoberfest-22
 
 📌Steps to contribute.
-Register your GitHub ID on Hackoberfest Website
+1) Register your GitHub ID on [Hackoberfest Website](https://hacktoberfest.com/) 
 
-Fork this repository.
+2) Fork this repository.
 
 Do the following steps back in my repository(only that will trigger a pull request) and not in your forked one
 Add algorithms in desired algorithm in specified folder(create new folders as per your requirement). Anything goes, from android to ML to anything you like.
