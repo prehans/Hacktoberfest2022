@@ -8,7 +8,7 @@
 
 ## Do the following steps back in my repository(only that will trigger a pull request) and not in your forked one
 
-### 3) Add algorithms in desired algorithm in specified folder(create new folders as per your requirement). Anything goes, from android to ML to anything you like.
+### 3) Add anything you want in the code so that you can create the good fronted view of the website.
 
 ### 4) Send a Pull request
 
