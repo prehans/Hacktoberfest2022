@@ -1,7 +1,7 @@
 # Hacktoberfest2022![hacktober](https://user-images.githubusercontent.com/85963909/193440138-76458f6d-1769-4dff-97f4-2246ec161cf3.jpg)
 PRs Welcome Open Source Love contributions welcome Hacktoberfest-22
 
-📌Steps to contribute.
+#📌Steps to contribute.
 1) Register your GitHub ID on [Hackoberfest Website](https://hacktoberfest.com/) 
 
 2) Fork this repository.
