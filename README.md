@@ -20,7 +20,7 @@
 ### 🙌 Make this your first step to development and open source. Get the confidence you require!!
 All of your suggestions are welcome!!
 
-## 📌Some tips to add your algorithm in the repository: ✨
+## 📌Some tips to add your code in the repository: ✨
 ### 1) Check if your code is already present the library.
 ### 2) If it is present then please don't add your code. If you could make the existing code better, then go ahead.
 ### 3) Follow the camelCase naming convention for source files.
