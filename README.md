@@ -26,3 +26,5 @@ All of your suggestions are welcome!!
 ### 3) Follow the camelCase naming convention for source files.
 ### 4) If you want to make a folder, please keep the first letter of the folder name capital.
 ### 5) Add your code to the proper folder.
+
+# NOTE : After successfull submission do not forgot to add your name in CONTRIBUTING.md file.
