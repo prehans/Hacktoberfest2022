@@ -1,1 +1,5 @@
-Home Page of Gym website
+1) prehans
+2) 
+3) 
+4) 
+5) 
