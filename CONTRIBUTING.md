@@ -1,6 +1,6 @@
 1) Prehans
-2) Ayushman Garg
-3) Ayush Singh
+2) Ayush Singh
+3) Ayushman Garg
 4) Harsh Wasnik
 5)
 6)
