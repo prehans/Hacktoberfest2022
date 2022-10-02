@@ -1,63 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.909);
+}
+header h1{
+    color: white;
+}
+
 body{
-    background :url('https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_359492192.jpg?w=750');
-    margin :0px;
-    padding: 0px;
-    height :30px;
-    }
-    .left{
-    display :inline-block;
-    position : absolute;
-    top: 76px;
-    color:white;
-    text-decoration:underline;
-    }
-    .mid{
-    display :block;
-    margin : 2px auto;
-    position : absolute;
-    display :inline-block;
-    left : 250px;
-    top :46px;
-    }
-    .right{
-    position : absolute;
-    right : 34px;
-    top :76px;
-    display :inline-block;
-    }
-    .navbar li{
-    display :inline-block;
-    padding : 20px 20px;
-    }
-    .navbar li a{
-    text-decoration :none;
-    }
-    .navbar li a:hover{
-    color:grey;
-    text-decoration:underline;
-    }
-    .btn{
+background: linear-gradient(to right, black, rgba(0, 0, 0, 0.727));
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: white;
+    align-items: center;
+}
+.gym{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.navbar .navlist{
+    display: flex;
+    list-style: none; 
+    width: 35%;
+    justify-content: space-between;
+}
+.navlist li{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.email{
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    padding: 5px 10px ;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.email:hover{
     background-color: black;
     color: white;
-    cursor:pointer;
-    border-radius:12px;
-    }
-    .btn:hover{
-    background-color: grey;
-    
-    }
-    .container{
-    border:2px solid grey;
-    margin : 200px 100px;
-    padding :95px ;
-    width:33%;
-    border-radius:12px;
-    }
-    .form input{
-    text-align:center;
-    display:block;
-    padding:4px;
+}
+
+.navlist li:hover{
+    text-decoration: underline;
+    scale: 1.1;
+}
+.container{
+    width: 30%;
+    padding:4% 5%;
     border: 2px solid white;
+
     margin :2px auto;
     border-radius:12px;
     width :300px;
@@ -209,3 +208,32 @@ input:focus ~ .highlight {
   ::placeholder {
     color: white;
   }
+
+    border-radius: 12px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+.container h2{
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: rgb(6, 6, 6);
+    cursor: pointer;
+    color: white;
+}
+
