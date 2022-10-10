@@ -3,7 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.logo{
+    height:3rem;width:3rem;
+    margin-left:1rem;
+}
 .pagetitle {
     margin-top: 6rem;
     text-align: center;
