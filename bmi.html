@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Include JS files -->
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<center>
+		<style>
+			body {
+				background-image: url('https://wallpaperaccess.com/full/834264.jpg');
+			}
+
+			h1 {
+				color: white;
+				text-align: center;
+			}
+
+			p {
+				color: white;
+			}
+
+			button {
+				background: #e2eaf0;
+				background-image: -webkit-linear-gradient(top, #e2eaf0, #2f3a40);
+				background-image: -moz-linear-gradient(top, #e2eaf0, #2f3a40);
+				background-image: -ms-linear-gradient(top, #e2eaf0, #2f3a40);
+				background-image: -o-linear-gradient(top, #e2eaf0, #2f3a40);
+				background-image: linear-gradient(to bottom, #e2eaf0, #2f3a40);
+				-webkit-border-radius: 28;
+				-moz-border-radius: 28;
+				border-radius: 28px;
+				font-family: Courier New;
+				color: #ffffff;
+				font-size: 30px;
+				padding: 10px 20px 10px 20px;
+				text-decoration: none;
+			}
+
+			button:hover {
+				background: #f7f7f7;
+				background-image: -webkit-linear-gradient(top, #f7f7f7, #030303);
+				background-image: -moz-linear-gradient(top, #f7f7f7, #030303);
+				background-image: -ms-linear-gradient(top, #f7f7f7, #030303);
+				background-image: -o-linear-gradient(top, #f7f7f7, #030303);
+				background-image: linear-gradient(to bottom, #f7f7f7, #030303);
+				text-decoration: none;
+			}
+		</style>
+		<div class="container">
+			<h1 color="white">BMI Calculator</h1>
+
+			<!-- Option for providing height
+			and weight to the user-->
+			<p>Height (in cm)</p>
+
+			<input type="text" id="height">
+
+			<p>Weight (in kg)</p>
+
+			<input type="text" id="weight">
+
+			<p><button id="btn">Calculate</button></p>
+
+			<div style="background-color:#5a5b5c" id="result"></div>
+		</div>
+
+	</center>
+</body>
+</html>
