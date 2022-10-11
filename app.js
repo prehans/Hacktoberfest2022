@@ -47,5 +47,4 @@ function calculateBMI() {
 			`Over Weight : <span>${bmi}</span>`;
 	}
 
-
 }
