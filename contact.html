@@ -18,7 +18,7 @@
   --primary-color: #FCFDFD;
   --secondary-color: #818386;
   --bg-color: #010712;
-  --button-color: #818386;
+  --button-color:#f8f8f8;
   --h1-color: #FCFDFD;
 }
 
@@ -126,9 +126,10 @@ button {
   width: 10rem;
   height: 2.25rem;
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   outline: none;
   cursor: pointer;
+  box-shadow:3px 4px #5e5d5db6;
 }
 
 input:hover, textarea:hover, button:hover {
@@ -294,13 +295,15 @@ input:checked + .slider:before {
 </div>
     
     <h1>Contact us</h1>
-    <p>Planning to join gym ,below are details that you</p>
+    <p>Planning to join gym ,fill the details</p>
     
     <form id="contact-form" method="post">
       <label for="name">Full name</label>
   <input type="text" id="name" name="name" placeholder="Your Full Name" required>
       <label for="email">Email Address</label>
   <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+  <label for="age">Age</label>
+  <input type="age" id="age" name="age" placeholder="Your Age" required>
       <label for="message">Message</label>
   <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
       <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
